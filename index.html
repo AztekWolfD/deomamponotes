@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DenzXGrench</title>
+</head>
+<body>
+    <script>
+        var num1=parseInt(prompt("Please enter a number: "));
+        var num2=parseInt(prompt("Enter a second number: "));
+        var sum=num1+num2;
+        var minus=num1-num2;
+        var product=num1*num2;
+        var quotient=num1/num2;
+        var g=num1+=num2;
+
+        document.write("i. Arithmetic:" + "<br>");
+        document.write("a. If we add " + num1 + " and " + num2 + " it will be equal to " + sum + "!" + "<br>");
+        document.write("b. If we subtract " + num1 + " and " + num2 + " it will be equal to " + minus + "!" + "<br>");
+        document.write("c. If we multiply " + num1 + " and " + num2 + " it will be equal to " + product + "!" + "<br>");
+        document.write("d. If we divide " + num1 + " by " + num2 + " it will be equal to " + quotient + "!" + "<br>");
+        document.write("ii. Comparison:" + "<br>");
+        document.write("a. First number is equal to the second number-->" + (num1==num2) + "<br>");
+        document.write("b. First number is greater than the second number-->" + (num1>num2) + "<br>");
+        document.write("c. First number is lesser than the second number-->" + (num1<num2) + "<br>");
+        document.write("iii. Logical:" + "<br>");
+        document.write("a. " + (num1!=num2) && (num1<num2) + "<br>");
+        document.write("iv. Assignment:" + "<br>");
+        document.write("a. First number = Second number-->" + num1 + "<br>");
+        document.write("a. First number += Second number-->" + g + "<br>");
+
+    </script>
+</body>
+</html>
